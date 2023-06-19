@@ -14,6 +14,12 @@
 		5A21AA352A40E5B100BA1AD1 /* GalaxyGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A21AA342A40E5B100BA1AD1 /* GalaxyGuideTests.swift */; };
 		5A21AA3F2A40E5B100BA1AD1 /* GalaxyGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A21AA3E2A40E5B100BA1AD1 /* GalaxyGuideUITests.swift */; };
 		5A21AA412A40E5B100BA1AD1 /* GalaxyGuideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A21AA402A40E5B100BA1AD1 /* GalaxyGuideUITestsLaunchTests.swift */; };
+		5A21AA542A40F3A500BA1AD1 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A21AA532A40F3A500BA1AD1 /* StarView.swift */; };
+		5A21AA552A40F3A500BA1AD1 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A21AA532A40F3A500BA1AD1 /* StarView.swift */; };
+		5A21AA562A40F3A500BA1AD1 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A21AA532A40F3A500BA1AD1 /* StarView.swift */; };
+		5A21AA582A40F71D00BA1AD1 /* PlanetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A21AA572A40F71D00BA1AD1 /* PlanetView.swift */; };
+		5A21AA592A40F71D00BA1AD1 /* PlanetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A21AA572A40F71D00BA1AD1 /* PlanetView.swift */; };
+		5A21AA5A2A40F71D00BA1AD1 /* PlanetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A21AA572A40F71D00BA1AD1 /* PlanetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,8 @@
 		5A21AA3A2A40E5B100BA1AD1 /* GalaxyGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GalaxyGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A21AA3E2A40E5B100BA1AD1 /* GalaxyGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalaxyGuideUITests.swift; sourceTree = "<group>"; };
 		5A21AA402A40E5B100BA1AD1 /* GalaxyGuideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalaxyGuideUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A21AA532A40F3A500BA1AD1 /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		5A21AA572A40F71D00BA1AD1 /* PlanetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,10 @@
 			isa = PBXGroup;
 			children = (
 				5A21AA232A40E5AF00BA1AD1 /* GalaxyGuideApp.swift */,
-				5A21AA252A40E5AF00BA1AD1 /* ContentView.swift */,
+				5A21AA4F2A40E61000BA1AD1 /* Model */,
+				5A21AA4E2A40E60600BA1AD1 /* View */,
+				5A21AA4D2A40E5E500BA1AD1 /* ViewModel */,
+				5A21AA502A40E61800BA1AD1 /* Utilities */,
 				5A21AA272A40E5B000BA1AD1 /* Assets.xcassets */,
 				5A21AA292A40E5B000BA1AD1 /* Preview Content */,
 			);
@@ -125,6 +136,37 @@
 				5A21AA402A40E5B100BA1AD1 /* GalaxyGuideUITestsLaunchTests.swift */,
 			);
 			path = GalaxyGuideUITests;
+			sourceTree = "<group>";
+		};
+		5A21AA4D2A40E5E500BA1AD1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5A21AA4E2A40E60600BA1AD1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A21AA252A40E5AF00BA1AD1 /* ContentView.swift */,
+				5A21AA532A40F3A500BA1AD1 /* StarView.swift */,
+				5A21AA572A40F71D00BA1AD1 /* PlanetView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A21AA4F2A40E61000BA1AD1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5A21AA502A40E61800BA1AD1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +299,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A21AA542A40F3A500BA1AD1 /* StarView.swift in Sources */,
 				5A21AA262A40E5AF00BA1AD1 /* ContentView.swift in Sources */,
+				5A21AA582A40F71D00BA1AD1 /* PlanetView.swift in Sources */,
 				5A21AA242A40E5AF00BA1AD1 /* GalaxyGuideApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +310,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A21AA552A40F3A500BA1AD1 /* StarView.swift in Sources */,
 				5A21AA352A40E5B100BA1AD1 /* GalaxyGuideTests.swift in Sources */,
+				5A21AA592A40F71D00BA1AD1 /* PlanetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +320,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A21AA562A40F3A500BA1AD1 /* StarView.swift in Sources */,
 				5A21AA3F2A40E5B100BA1AD1 /* GalaxyGuideUITests.swift in Sources */,
+				5A21AA5A2A40F71D00BA1AD1 /* PlanetView.swift in Sources */,
 				5A21AA412A40E5B100BA1AD1 /* GalaxyGuideUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
